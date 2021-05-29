@@ -1,0 +1,8 @@
+pandas
+numpy
+tqdm
+transformers
+nlpaug
+rouge_score
+scikit-learn
+nltk
