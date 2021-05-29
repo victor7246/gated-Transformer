@@ -50,7 +50,7 @@ If you find this repo useful, please cite our paper:
 ```BibTex
 @inproceedings{,
   author    = {Ayan Sengupta and
-  			   Amit Kumar and
+               Amit Kumar and
                Sourabh Kumar Bhattacharjee and
                Suman Roy},
   title     = {Gated Transformer for Robust De-noised Sequence-to-Sequence Modelling},
