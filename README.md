@@ -1,7 +1,7 @@
 # gated-Transformer
 Gated Pretrained Transformer model for robust denoised sequence-to-sequence modeling. It uses a gating unit to detect and correct noises from text data and generate de-noised target from a generative decoder.
 
-![gated-Transformer](https://github.com/LCS2-IIITD/HIT-ACL2021-Codemixed-Representation/blob/main/image/model.png)
+![gated-Transformer](https://github.com/victor7246/gated-Transformer/blob/main/static/model_architecture.png)
 
 In this work we conduct our experiment on three tasks - 
 
@@ -41,7 +41,7 @@ Transformer encoder-decoder model (e.g. - BERT2BERT)
 
 #### Inference
 
-	$ $ cd ./drive/MyDrive/gated-denoise/ && python predict.py --data_file ./data.csv \
+	$ cd ./drive/MyDrive/gated-denoise/ && python predict.py --data_file ./data.csv \
                                                       --model_path ./model/ --model_type bart --pretrained_encoder_path "facebook/bart-base" \
                                                       --mask_gate --copy_gate --generate_gate --skip_gate 
 
